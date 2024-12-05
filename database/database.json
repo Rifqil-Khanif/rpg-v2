@@ -126,6 +126,69 @@
       "uang": 10000,
       "lastclaim": 1733199809887,
       "lastrampok": 1733199809887
+    },
+    "6285174197856@s.whatsapp.net": {
+      "vip": false,
+      "afkTime": -1,
+      "afkReason": "",
+      "limit": 100,
+      "uang": 10000,
+      "lastclaim": 1733413910068,
+      "lastrampok": 1733413910068
+    },
+    "994993521656@s.whatsapp.net": {
+      "vip": false,
+      "afkTime": -1,
+      "afkReason": "",
+      "limit": 100,
+      "uang": 10000,
+      "lastclaim": 1733413911457,
+      "lastrampok": 1733413911457
+    },
+    "491786938325@s.whatsapp.net": {
+      "vip": false,
+      "afkTime": -1,
+      "afkReason": "",
+      "limit": 100,
+      "uang": 10000,
+      "lastclaim": 1733413921919,
+      "lastrampok": 1733413921919
+    },
+    "905535331553@s.whatsapp.net": {
+      "vip": false,
+      "afkTime": -1,
+      "afkReason": "",
+      "limit": 100,
+      "uang": 10000,
+      "lastclaim": 1733413929072,
+      "lastrampok": 1733413929072
+    },
+    "393920254140@s.whatsapp.net": {
+      "vip": false,
+      "afkTime": -1,
+      "afkReason": "",
+      "limit": 100,
+      "uang": 10000,
+      "lastclaim": 1733413936932,
+      "lastrampok": 1733413936932
+    },
+    "59174439848@s.whatsapp.net": {
+      "vip": false,
+      "afkTime": -1,
+      "afkReason": "",
+      "limit": 100,
+      "uang": 10000,
+      "lastclaim": 1733414006813,
+      "lastrampok": 1733414006813
+    },
+    "573007737882@s.whatsapp.net": {
+      "vip": false,
+      "afkTime": -1,
+      "afkReason": "",
+      "limit": 100,
+      "uang": 10000,
+      "lastclaim": 1733414055753,
+      "lastrampok": 1733414055753
     }
   },
   "groups": {
@@ -302,6 +365,31 @@
       "antipromotion": false,
       "antidelete": false,
       "antiemoji": false
+    },
+    "6285174197856@s.whatsapp.net": {
+      "ntsfw": false,
+      "welcome": false,
+      "setinfo": false,
+      "badword": false,
+      "antiforeignnum": false,
+      "antibot": false,
+      "antiviewonce": false,
+      "antispam": false,
+      "antivirtex": false,
+      "antimedia": false,
+      "antiimage": false,
+      "antivideo": false,
+      "antiaudio": false,
+      "antipoll": false,
+      "antisticker": false,
+      "antilocation": false,
+      "antidocument": false,
+      "anticontact": false,
+      "antilink": false,
+      "antipromotion": false,
+      "antidelete": false,
+      "antiemoji": false,
+      "ntnsfw": false
     }
   },
   "database": {},
@@ -343,6 +431,25 @@
       "autorecordtype": false,
       "autorecord": false,
       "autotype": false
+    },
+    "6285174197856@s.whatsapp.net": {
+      "anticall": false,
+      "antiswview": false,
+      "totalhit": 0,
+      "totalError": 0,
+      "online": false,
+      "autosticker": false,
+      "autodownload": false,
+      "autobio": true,
+      "autoread": true,
+      "autoblocknum": false,
+      "onlyindia": false,
+      "onlyindo": false,
+      "onlygrub": false,
+      "onlypc": false,
+      "autorecordtype": false,
+      "autorecord": false,
+      "autotype": true
     }
   },
   "others": {}
