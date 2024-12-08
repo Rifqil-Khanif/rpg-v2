@@ -14892,6 +14892,7 @@ break
 │ 🎉 *${xliconytimewisher}* 😄
 ╰───────────❍
 ${readmore}
+
 ╭───❍「 *👤 USER INFO* 」
 │ 🪪 *Name* : ${m.pushName || 'No Name'}
 │ 📱 *Number* : +${me.split('@')[0]}
@@ -14922,24 +14923,15 @@ ${readmore}
 ╰───────────❍
 
 ╭───❍「 *📜 MENU* 」
-│ 🗂️ ${prefix}allmenu
-│ 🔍 ${prefix}searchmenu
-│ 📥 ${prefix}downloadmenu
-│ 🎮 ${prefix}gamemenu
-│ 🎭 ${prefix}funmenu
-│ 🤖 ${prefix}aimenu
-│ 👥 ${prefix}groupmenu
-│ 👑 ${prefix}ownermenu
-│ 🔄 ${prefix}convertmenu
-│ 📃 ${prefix}listmenu
-│ 🛐 ${prefix}religionmenu
-│ 🎌 ${prefix}animemenu
-│ 🖼️ ${prefix}randomphotomenu
-│ 🎥 ${prefix}randomvideomenu
-│ 🖌️ ${prefix}stickermenu
-│ 💾 ${prefix}databasemenu
-│ 🛍️ ${prefix}storemenu
-│ 🔍 ${prefix}stalkermenu
+│ 🗂️ ${prefix}allmenu   |  🔍 ${prefix}searchmenu
+│ 📥 ${prefix}downloadmenu   |  🎮 ${prefix}gamemenu
+│ 🎭 ${prefix}funmenu   |  🤖 ${prefix}aimenu
+│ 👥 ${prefix}groupmenu   |  👑 ${prefix}ownermenu
+│ 🔄 ${prefix}convertmenu   |  📃 ${prefix}listmenu
+│ 🛐 ${prefix}religionmenu   |  🎌 ${prefix}animemenu
+│ 🖼️ ${prefix}randomphotomenu   |  🎥 ${prefix}randomvideomenu
+│ 🖌️ ${prefix}stickermenu   |  💾 ${prefix}databasemenu
+│ 🛍️ ${prefix}storemenu   |  🔍 ${prefix}stalkermenu
 │ ⚙️ ${prefix}othermenu
 ╰───────────❍`
 if (typemenu === 'v1') {
