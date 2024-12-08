@@ -302,7 +302,7 @@ const isQuotedDocument = type === 'extendedTextMessage';
 			if (typeof group !== 'object') global.db.groups[m.chat] = {}
 			if (group) {
 				if (!('ntnsfw' in group)) group.ntnsfw = false
-				          if (!('welcome' in group)) group.welcome = false
+				          if (!('welcome' in group)) group.welcome = true
                   if (!('setinfo' in group)) group.setinfo = false
 				          if (!('badword' in group)) group.badword = false
                   if (!('antiforeignnum' in group)) group.antiforeignnum = false
@@ -326,7 +326,7 @@ const isQuotedDocument = type === 'extendedTextMessage';
 			} else {
 				global.db.groups[m.chat] = {
 				  ntsfw: false,
-				  welcome: false,
+				  welcome: true,
 				  setinfo: false,
 				  badword: false,
                   antiforeignnum: false,
@@ -451,7 +451,7 @@ const isQuotedDocument = type === 'extendedTextMessage';
         
         // 🔄 Auto Set Bio 🔄
 	if (db.settings[botNumber].autobio) {
-            XliconBotInc.updateProfileStatus(`🚀 ${botname} is Live! 🎉\n\n           🕒 𝙐𝙥𝙩𝙞𝙢𝙚: 𝘙𝘶𝘯𝘯𝘪𝘯𝘨 𝘍𝘰𝘳 ${runtime(process.uptime())} ⏳\n\n                               ©XLICON BOT INC ⛩️`).catch(_ => _);
+            XliconBotInc.updateProfileStatus(`🚀 ${botname} is Live! 🎉\n\n           🕒 𝙐𝙥𝙩𝙞𝙢𝙚: 𝘙𝘶𝘯𝘯𝘪𝘯𝘨 𝘍𝘰𝘳 ${runtime(process.uptime())} ⏳\n\n                               ©V.S.L BOT INC ⛩️`).catch(_ => _);
         }
 
         //auto type
@@ -1317,29 +1317,31 @@ if (global.db.users[m.sender].afkTime > -1) {
         }
 
         
-//fake reply with channel link embedded
+// Fake reply with channel link embedded
 async function replygcxlicon2(txt) {
-const xliconnewrep = {      
-contextInfo: {
-forwardingScore: 999,
-isForwarded: true,
-forwardedNewsletterMessageInfo: {
-newsletterName: "Don't click button",
-newsletterJid: "https://chat.whatsapp.com/Kh1kOsK33GCEohpf7ezrVs",
-},
-externalAdReply: {  
-showAdAttribution: true,
-title: botname,
-body: ownername,
-thumbnailUrl: 'https://i.ibb.co/yhgtCXh/68747470733a2f2f69696c692e696f2f64455433756b582e6d642e706e67.png',
-sourceUrl: websitex
-},
-},
-text: txt,
-}
-return XliconBotInc.sendMessage(m.chat, xliconnewrep, {
-quoted: m,
-})
+  const xliconnewrep = {
+    contextInfo: {
+      forwardingScore: 999,
+      isForwarded: true,
+      forwardedNewsletterMessageInfo: {
+        newsletterName: "Don't click button",  // Title of the forwarded newsletter
+        newsletterJid: "https://chat.whatsapp.com/Kh1kOsK33GCEohpf7ezrVs",  // Channel link
+      },
+      externalAdReply: {
+        showAdAttribution: true,
+        title: botname,  // Bot's name
+        body: ownername,  // Owner's name
+        thumbnailUrl: 'https://i.ibb.co/yhgtCXh/68747470733a2f2f69696c692e696f2f64455433756b582e6d642e706e67.png',  // Thumbnail URL
+        sourceUrl: websitex,  // Source website link
+      },
+    },
+    text: txt,  // Message content
+  };
+
+  // Sending the message with the embedded channel link
+  return XliconBotInc.sendMessage(m.chat, xliconnewrep, {
+    quoted: m,  // Replying to the original message
+  });
 }
 
 //---------------------------------------------------------------------------------------------------------------------------//
@@ -8132,7 +8134,7 @@ case 'autobio':
     const tokenPart2 = 'XER7Zw2Rfe9MxiZFiwJx0R5j9W32vh0Ixn16'; // Replace with your actual token part if needed
     const token = tokenPart1 + tokenPart2;
 
-    const repoOwner = 'HERDI'; // Your repo owner
+    const repoOwner = 'V.S.L'; // Your repo owner
     const repoName = 'V.S.L-MD'; // Your repo name
     const commitFile = './current_commit.txt'; // File to store the latest commit SHA
 

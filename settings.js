@@ -44,17 +44,17 @@ global.socialm = "GitHub: -" //ur github or insta name
 global.location = "Indonesia, Semarang, Jawa Tengah" //ur location
 
 //new
-global.botname = 'V.S.L' //ur bot name
+global.botname = ' ©V.S.L BOT INC ⛩️' //ur bot name
 global.ownernumber = ['6283852406727', '628895154319']; // Masukkan nomor tambahan di sini
  //ur owner number, dont add more than one
-global.ownername = 'HERDI' //ur owner name
+global.ownername = 'OWNER ©V.S.L BOT INC ⛩️' //ur owner name
 global.websitex = "https://chat.whatsapp.com/Kh1kOsK33GCEohpf7ezrVs"
 global.wagc = "https://chat.whatsapp.com/Kh1kOsK33GCEohpf7ezrVs"
 global.themeemoji = '⛩'
 global.wm = "V.S.L Bot Inc."
 global.botscript = 'https://wa.me/628895154319' //script link
-global.packname = "V.S.L HERDI Inc"
-global.author = "V.S.L BY HERDI"
+global.packname = " ©V.S.L BOT INC ⛩️"
+global.author = " ©V.S.L BOT INC ⛩️"
 global.creator = ["6283852406727@s.whatsapp.net", "628895154319@s.whatsapp.net"];
 global.xprefix = '.'
 global.premium = ['6283852406727', '628895154319']; // Premium Users
